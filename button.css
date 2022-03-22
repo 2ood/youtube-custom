@@ -1,0 +1,8 @@
+#mirror-mode {
+  min-width: 30px;
+  width : 70px;
+  height : 70px;
+  min-height : 70px;
+  position: relative;
+  display: inline-block;
+}
