@@ -16,7 +16,6 @@
     "48": "mirror.svg",
     "128": "mirror.svg"
   },
-  "permissions": ["storage", "activeTab", "scripting"],
   "action": {
     "default_popup": "popup.html"
   },
