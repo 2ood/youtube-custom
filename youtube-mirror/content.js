@@ -5,7 +5,7 @@ const controls = document.getElementsByClassName("ytp-right-controls")[0];
 const transform = "scaleX(-1)";
 
 const button = buildButton();
-console.log(button);
+
 controls.insertBefore(button, controls.firstChild);
 
 

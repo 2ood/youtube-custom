@@ -1,0 +1,17 @@
+{
+  "name": "2ood-youtube-cite-memo",
+  "description": "You can cite the youtube video and write a memo of it in my blog",
+  "version": "0.0.1",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "js": ["content.js"],
+      "matches": ["https://*.youtube.com/*"],
+      "run_at": "document_end",
+      "css": ["inject.css"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
