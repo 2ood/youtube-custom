@@ -1,6 +1,7 @@
 
 
 const key = "AIzaSyCcYQXcYrcLyeicygiGIp3HW2O7UQV6R_w";
+/*
 let resp = httpGet(`https://www.googleapis.com/youtube/v3/search?key=${key}&maxResults=25&videoEmbeddable=true&type=video&relatedToVideoId=Y4jJce6TiOk`);
 console.log(resp);
 const json = JSON.parse(resp);
@@ -10,7 +11,7 @@ const i = document.getElementById("main-video");
 i.setAttribute("allow",`accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture`);
 i.setAttribute("allowfullscreen","true");
 i.src=`https://www.youtube.com/embed/${items[24].id.videoId}`;
-
+*/
 let res = 'GET https://www.googleapis.com/youtube/v3/videos';
 /*
 https://youtu.be/onfRKtDAyls
