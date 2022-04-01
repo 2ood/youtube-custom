@@ -3,6 +3,10 @@
   "description": "You can cite the youtube video and write a memo of it in my blog",
   "version": "0.0.1",
   "manifest_version": 3,
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmedPDk8xCBQG6W+GpcV/qjCEOv7ItgJtANLXOkCyxblzWTI/VfWiUFxM4HS1oPeU6wRHP+aa2zbeL4Ifoks88LSZb74tZL42d8neANToYlNr1o+TIK2RfNY9RL9cUjtmlMPWrA5Qft8AF7OdGbq12zFpXh1Akda+Z6C3gFEx2ceY8kO2iHGS7wQnxU451bbXjwps6DguBZslYKp0cBByxKGq/JtO8CHo5djDqOd3zbi23ajTBeX99VMcLVx2rXh++XArghaKX+xkUyAvkKaMrWdB49uEQt80bIgZnj9WQxfD3Vedfr9//E/ebYyTxjBXdZLgl8fsBYuWfOuBsaYEfwIDAQAB",
+  "background": {
+    "service_worker": "background.js"
+  },
   "content_scripts": [
     {
       "js": ["content.js"],
@@ -13,5 +17,11 @@
   ],
   "action": {
     "default_popup": "popup.html"
-  }
+  },
+  "permissions" : [
+    "tabs","identity"
+  ],
+  "content_security_policy":{
+      "extension_pages":"script-src-elem *; script-src 'self'; object-src 'self'"
+    }
 }

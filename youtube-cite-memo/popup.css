@@ -1,0 +1,37 @@
+* {
+  padding : 0;
+  margin : 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 300px;
+  width : 300px;
+  height : 300px;
+  min-height: 300px;
+}
+
+textarea {
+  border : none;
+  outline : none;
+  resize: none;
+  width :  100%;
+  height : calc(100% - 50px);
+  overflow-y : scroll;
+  word-wrap: break-word;
+  padding : 10px;
+
+}
+
+button {
+  width :calc(100% - 20px);
+  height : 30px;
+  border : none;
+  margin : 0px 10px;
+  cursor : pointer;
+}
+
+button:active {
+  background-color: white;
+  color : gray;
+}

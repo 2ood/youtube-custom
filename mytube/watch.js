@@ -1,6 +1,4 @@
 
-
-const key = "AIzaSyCcYQXcYrcLyeicygiGIp3HW2O7UQV6R_w";
 /*
 let resp = httpGet(`https://www.googleapis.com/youtube/v3/search?key=${key}&maxResults=25&videoEmbeddable=true&type=video&relatedToVideoId=Y4jJce6TiOk`);
 console.log(resp);
