@@ -1,0 +1,20 @@
+{
+  "name": "youtube-keyword-selector",
+  "description": "Use my youtube in a certain scope of topics",
+  "version": "0.0.1",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "js": ["content.js"],
+      "matches": ["https://*.youtube.com/"],
+      "run_at": "document_end",
+      "css": ["inject.css"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions" : [
+    "tabs"
+  ]
+}
