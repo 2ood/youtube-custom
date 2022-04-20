@@ -17,14 +17,14 @@ class YoutubeAccount{
 const lists = {
   "coder-time" : ["Computer programming", "AI", "Javascript"],
   "coffee-time" : ["Coffee","Espresso"],
-  "music-time" : ["Guitar","Playlists","Soundtracks"],
-  "KYUNGMIN CHOI" : ["Guitar"]
+  "music-time" : ["Guitar","Playlists","Soundtracks","Music","Acoustic Guitar","Rhythm & Blues"],
+  "KYUNGMIN CHOI" : ["Music"]
 };
 
 setTimeout(()=>{
   const button = document.getElementById("avatar-btn");
   button.click();
-},3000);
+},1500);
 
 setTimeout(()=>{
   const account_dom = document.querySelector("ytd-popup-container #channel-container #account-name");
@@ -32,7 +32,7 @@ setTimeout(()=>{
 
   const name = account_dom.innerHTML;
   const account =  new YoutubeAccount(name,lists[name]);
-  console.log(account.name);
+
   const length = account.list_length();
 
   for(let i = 0;i<list.length;i++) {
@@ -41,4 +41,4 @@ setTimeout(()=>{
       break;
     }
   }
-},5000);
+},2000);
