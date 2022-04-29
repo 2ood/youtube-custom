@@ -16,8 +16,8 @@ class YoutubeAccount{
 
 const lists = {
   "coder-time" : ["Computer programming", "AI", "Javascript"],
-  "coffee-time" : ["Coffee","Espresso"],
-  "music-time" : ["Guitar","Playlists","Soundtracks","Music","Acoustic Guitar","Rhythm & Blues"],
+  "coffee-time" : ["Coffee","Espresso","Drip coffee"],
+  "music-time" : ["Guitar","Music","Acoustic Guitar","Rhythm & Blues","Playlists","Soundtracks",],
   "KYUNGMIN CHOI" : ["Music"]
 };
 
